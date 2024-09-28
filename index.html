@@ -8,95 +8,112 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
-<body> 
-        <header>
+<body>
+    <header>
 
-            <img class="logo-header" src="img/logo.png" alt="pão, pão na chapa, logo de pão, logo padaria, massa">
+        <img class="logo-header" src="img/logo.png" alt="pão, pão na chapa, logo de pão, logo padaria, massa">
+        <nave class="menu">
+            <ul>
+                <li>
+                    <a href="#introdução">inicio</a>
+                </li>
 
-            <nave>
-                <ul>
-                    <li>
-                        <a>inicio</a>
-                    </li>
+                <li>
+                    <a href="#sobre-nos">sobre</a>
+                </li>
 
-                    <li>
-                        <a>sobre</a>
-                    </li>
+                <li>
+                    <a href="#produtos">produtos</a>
+                </li>
 
-                    <li>
-                        <a>produtos</a>
-                    </li>
+                <li>
+                    <a href="#contato">contatos</a>
+                </li>
+            </ul>
+        </nave>
 
-                    <li>
-                        <a>contatos</a>
-                    </li>
-                </ul>
-            </nave>
-
-        </header>
-        <main>
-
-        
+    </header>
+    <main>
 
 
-        <section>    
-        
-              <h2>bem vindo a Padaria Pão na chapa</h2> 
-              <p>Na nossa padaria Pão na chapa, oferecemos pães feitos na hora bem quentinhos com um
-                 ambiente confortvel e acolhedor para os clientes, além das delociosas sobremesas e
-                 salgados presente no nosso estabelecimento,temos tambem bebidas para vários gostos venha já aproveitar!
-              </p>
+
+
+        <section id="introducao">
+            <div>
+                <h2>bem vindo a Padaria Pão na chapa</h2>
+                <p>Na nossa padaria Pão na chapa, oferecemos pães feitos na hora bem quentinhos com um
+                    ambiente confortvel e acolhedor para os clientes, além das delociosas sobremesas e
+                    salgados presente no nosso estabelecimento,temos tambem bebidas para vários gostos venha já
+                    aproveitar!
+                </p>
+            </div>
+            <div>
+                <img width="300px" src="./img/pao.png" alt="pão,cesta de pães,café da manhã" />
+            </div>
+
+
         </section>
 
-        <section>
-               <h2>Sobre nós</h2>
-               <p>
-                A nossa padaria está presente no cotidiano das famílias desde 1951, sempre com o intuito de levar o calor no coração de nossos consumidores
-                e tambem a qualidade com experienças marcantes com nossos produtos de qualadides, sempre sendo prepados com todo o carnho dos nossos funcionários 
-                para cada café da manhã e das tardes das famílias já que o nosso compromisso é entregar não só um produto mais em si uma memoria para todos os consumidores.
+        <section id="sobre-nos">
+            <h2>Sobre nós</h2>
+            <p>
+                A nossa padaria está presente no cotidiano das famílias desde 1951, sempre com o intuito de levar o
+                calor no coração de nossos consumidores
+                e tambem a qualidade com experienças marcantes com nossos produtos de qualadides, sempre sendo prepados
+                com todo o carnho dos nossos funcionários
+                para cada café da manhã e das tardes das famílias já que o nosso compromisso é entregar não só um
+                produto mais em si uma memoria para todos os consumidores.
 
-               </p>
+            </p>
         </section>
 
-        <section>
-              <h2>Produtos</h2>
-               
-              <div>
-                <div>
+        <section id="produtos">
+            <h2>Produtos</h2>
+
+            <div class="conteudo-produtos">
+                <div class="produto">
                     <h3>Pães</h3>
                     <p>
-                        Temos várias opções como: pão frances, pão de frios, baguetes, pão de queijo, croissaint entre outros.
+                        Temos várias opções como: pão frances, pão de frios, baguetes, pão de queijo, croissaint entre
+                        outros.
                     </p>
                 </div>
 
-                <div>
+                <div class="produto">
                     <h3>Doces</h3>
                     <p>
-                        temos várias opções de doces aqui vão as principais: tortas, brownies, brigadeiros, sonhos de doce de leite e creme, churros e outras variedades. 
+                        temos várias opções de doces aqui vão as principais: tortas, brownies, brigadeiros, sonhos de
+                        doce de leite e creme, churros e outras variedades.
                     </p>
                 </div>
 
-                <div>
+                <div class="produto">
                     <h3>Salgados</h3>
                     <p>
-                        nos salgaldos temos várias opções saborosas: coxinha, risoles, esfihas, pizzas, salgados sortidos e muito mais.
+                        nos salgaldos temos várias opções saborosas: coxinha, risoles, esfihas, pizzas, salgados
+                        sortidos e muito mais.
                     </p>
                 </div>
-              </div>
+            </div>
         </section>
     </main>
 
-        <footer>
-             <section>
-                <h2>contato</h2>
-                <p>Email: contato@paonachapa.com</p>
-                <p>Telefone: (11) 1742-4266</p>
-                <p>Endereço: Rua dos sonhos, 129 - centro - São Paulo</p>
-             </section>
-             <p>&copy; 2024 - Padaria Pão na Chapa</p>
-        </footer>
+    <footer>
+        <section id="contato">
+            <h2>contato</h2>
+            <p>Email: contato@paonachapa.com</p>
+            <p>Telefone: (11) 1742-4266</p>
+            <p>Endereço: Rua dos sonhos, 129 - centro - São Paulo</p>
+        </section>
+        <p class="direitos-autorais">&copy; 2024 - Padaria Pão na Chapa</p>
+    </footer>
 
 </body>
+
 </html>
